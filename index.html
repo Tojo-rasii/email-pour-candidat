@@ -4,8 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email pour proprietaire</title>
+    <link rel="stylesheet" href="css/email-proprietaire.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="desktop/email-proprietaire-desktop.css">
+    <link rel="stylesheet" href="mobile/email-proprietaire-mobile.css">
 </head>
 <body>
-    
+    <div>
+        <main class="main-email-proprietaire">
+            <section class="section-ep">
+                <article class="article-title-ep">
+                    <picture>
+                        <h3>Nouvelle candidature reçue pour votre annonce</h3>
+                    </picture>
+                </article>
+
+                <article class="article-document-ep">
+                    <picture class="texte-ep">
+                        <p>Bonjour <span class="f-bold">[Nom du propriétaire]</span>,</p>
+                    </picture>
+                    <picture class="texte-ep">
+                        <p>Une nouvelle candidature a été soumise pour votre annonce</p>
+                       </picture>
+                    <picture class="texte-ep">
+                        <p>Voici les informations du candidat :</p> 
+                        <ul class="ul-ep">
+                            <li>Nom du candidat : <span class="f-bold">[Nom complet]</span></li>
+                            <li>
+                                Numero de téléphone : <span class="f-bold">[Numero téléphone]</span> 
+
+                            </li>
+                        <li>
+                        Statut Professionnel : <span class="f-bold">[Statut Professionnel]</span> 
+
+                        </li>
+                        <li>
+                        Revenu Mensuel : <span class="f-bold"> [Revenu Mensuel]</span>
+
+                    </li>
+                        <li>
+                            Garant : <span class="f-bold"> [Nom du garant et relation avec le candidat, si applicable]</span>
+
+                        </li>
+                        <li>
+                            Documents fournis : <span class="f-bold">[Liste des documents envoyés par le candidat, y compris pièce d’identité, justificatifs de revenus, etc.]</span>
+
+                        </li>
+                       </ul>
+                    </picture>
+                       
+                  
+                       <picture class="texte-ep">
+                           <p>Vous pouvez consulter les détails de cette candidature en vous rendant sur votre espace personnel via le lien suivant : <span class="f-bold">[Lien vers l’espace propriétaire]</span> </p>
+                       </picture>
+                       <picture class="texte-ep">
+                          
+                        <p>N’hésitez pas à contacter le candidat directement pour plus de précisions ou pour organiser une visite.</p>
+                       </picture> 
+                       <picture class="texte-ep">
+                          <p>Pour toute question concernant votre dossier n'hésiter pas à nous contacter à <span class="f-bold">[ Adresse email de contact ]</span> </p>
+                       </picture> 
+                        
+   <!-- SIGNATURE -->
+   <figure class="signature-ep">
+    <picture class="texte-ep">
+        <p>Cordialement,</p>
+        <p class="f-bold">L'équipe Bailti</p>
+    </picture>
+
+    <!-- LOGO -->
+     <picture>
+        <img src="asset/logo.png" alt="" class="logo">
+     </picture>
+
+     <picture class="link-ep">
+        <a href="#">
+            <p>https://www.bailti.fr/</p>
+        </a>
+     </picture>
+ </figure>
+        
+                </article>
+
+             
+            </section>
+        </main>
+    </div>
 </body>
 </html>
