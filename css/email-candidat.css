@@ -1,14 +1,14 @@
-.main-email-proprietaire{
+.main-email-candidat{
     /* background: red; */
 }
 
-.article-title-ep{
+.article-title-ec{
     background: var(--primary);
     color: #fff;
     height: 20em;
 }
 
-.article-title-ep picture h3{
+.article-title-ec picture h3{
     /* padding: 1em; */
     font-size: 1.4em;
     font-weight: 500;
@@ -19,7 +19,7 @@
     margin: 0 auto;
 }
 
-.article-document-ep{
+.article-document-ec{
     margin: 0 auto;
     margin-top: -9.5em;
     margin-bottom: 2em;
@@ -31,33 +31,34 @@
     gap: 2.5em;
 }
 
-.texte-ep{
+.texte-ec{
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.ul-ep{
+.ul-ec{
     display: flex;
     flex-direction: column;
     gap: 1em;
+    margin-top: 1.5em;
 }
 
-.ul-ep li{
+.ul-ec li{
     margin-left: 1.5em;
     line-height: 1.5em;
 }
-.ul-ep li span{
+.ul-ec li span{
     line-height: 1.5em;
 }
 
 /* SIGNATURE */
-.signature-ep{
+.signature-ec{
     display: flex;
     flex-direction: column;
     gap: 2em;
     align-items: center;
-    margin-top: 3.5em;
+    margin-top: 3em;
     margin-bottom: 2em;
 }
 .logo{
@@ -71,7 +72,7 @@
     font-weight: 700;
 }
 
-.link-ep a{
+.link-ec a{
     color: var(--primary);
     font-weight: 600;
     text-decoration: none;

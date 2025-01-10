@@ -1,12 +1,12 @@
 @media screen and (max-width: 930px) {
-    .article-title-ep picture h3{
+    .article-title-ec picture h3{
 
         /* background: red; */
         width: 95%;
       
     }
 
-    .article-document-ep{
+    .article-document-ec{
         background: #fff;
         width: 95%;
     }
