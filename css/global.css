@@ -18,6 +18,9 @@
     border: none;
 
 }
+p{
+    line-height: 2em;
+}
 .btn-blue {
     background-color: var(--primary);
     color: #fff;
